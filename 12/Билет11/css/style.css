@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #627294;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #627294;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+main {
+    padding: 20px;
+}
+
+main a {
+    color: #333;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+main ul {
+    list-style-type: none; /* Убираем стандартные маркеры списка */
+    padding: 0; /* убираем отступы по умолчанию */
+}
+
+main ul li {
+    background-color: #e0ecfa; /* цвет фона для элементов списка */
+    margin: 10px 0; /* отступы между элементами */
+    padding: 10px; /* внутренние отступы для элементов */
+    border-radius: 5px; /* сглаживание углов */
+    border: 1px solid #09105f; /* граница для элементов */
+    transition: background-color 0.3s; /* плавный переход цвета фона */
+}
+
+main ul li:hover {
+    background-color: #d8def3; /* цвет фона при наведении */
+}
+
+main h2 {
+    margin-bottom: 20px; /* отступ снизу для заголовка */
+    color: #333; /* цвет текста заголовка */
+}
+
+/* Дополнительные стили для текста */
+main ul li {
+    font-size: 16px;
+    color: #333;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #3c44bd;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1e1c79;
+}
+
+footer {
+    background-color: #627294;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+figure {
+    margin: 20px 0; /* отступ для группы изображения */
+}
+
+figure img {
+    max-width: 100%; /* изображение пропорционально уменьшается до ширины родителя */
+    height: auto; /* сохранение пропорций */
+    border-radius: 10px; /* Сглаживание углов */
+}
+
+figure figcaption {
+    text-align: center; /* центрирование подписи */
+    margin-top: 10px; /* отступ сверху для подписи */
+    color: #3c44bd; /* цвет текста для подписи */
+    font-size: 20px; /* размер шрифта для подписи */
+}
