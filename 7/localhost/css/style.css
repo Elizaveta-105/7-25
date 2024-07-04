@@ -1,0 +1,46 @@
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.tabs {
+    display: flex;
+}
+
+.tabs a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+} 
+
+.contact {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.contact p {
+    color: #555;
+}
+
+.contact small {
+    color: #999;
+}
