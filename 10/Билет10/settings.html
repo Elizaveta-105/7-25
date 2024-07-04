@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Настройки пользователя</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #badafd; /* изменен фон */
+            color: #333; /* изменен цвет текста */
+            font-family: Arial, sans-serif; /* задаем шрифт */
+        }
+        .settings-box {
+            background-color: #fff;
+            padding: 20px; /* увеличен padding */
+            border: 1px solid #ddd;
+            border-radius: 10px; /* изменен border-radius */
+            width: 320px; /* увеличен width */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* увеличена тень */
+            text-align: left; /* изменен text-align */
+        }
+        .settings-box h2 {
+            font-size: 24px; /* увеличен размер текста */
+            margin-bottom: 20px; /* увеличен margin-bottom */
+            text-align: center; /* центрирование */
+            font-weight: bold; /* изменен шрифт */
+        }
+        .settings-box label {
+            display: block;
+            margin-bottom: 8px; /* изменен margin-bottom */
+            font-size: 16px; /* изменен размер текста */
+            font-weight: bold; /* изменен шрифт */
+        }
+        .settings-box input {
+            width: 100%;
+            padding: 10px; /* увеличен padding */
+            margin-bottom: 15px; /* увеличен margin-bottom */
+            border: 1px solid #ccc;
+            border-radius: 5px; /* изменен border-radius */
+            font-size: 16px; /* изменен размер текста */
+        }
+        .settings-box button {
+            width: 100%;
+            padding: 12px; /* увеличен padding */
+            background-color: #007bff; /* изменен фон */
+            border: none;
+            border-radius: 5px; /* изменен border-radius */
+            color: #fff;
+            font-size: 16px; /* изменен размер текста */
+            cursor: pointer;
+            font-weight: bold; /* изменен шрифт */
+        }
+        .settings-box button:hover {
+            background-color: #0056b3; /* изменен фон при наведении */
+        }
+        .settings-box .form-group {
+            margin-bottom: 15px; /* указаны отступы */
+        }
+    </style>
+</head>
+<body>
+    <div class="settings-box">
+        <h2>Настройки пользователя</h2>
+        <div class="form-group">
+            <label for="username">Имя пользователя</label>
+            <input type="text" id="username" placeholder="Введите имя пользователя">
+        </div>
+        <div class="form-group">
+            <label for="email">Электронная почта</label>
+            <input type="email" id="email" placeholder="Введите электронную почту">
+        </div>
+        <div class="form-group">
+            <label for="password">Пароль</label>
+            <input type="password" id="password" placeholder="Введите пароль">
+        </div>
+        <button type="button">Сохранить настройки</button>
+    </div>
+</body>
+</html>

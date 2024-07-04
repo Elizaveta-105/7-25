@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #badafd;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: 1.5px solid #333; /* добавлен цвет для границы */
+    border-radius: 40px;
+}
+
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 0;
+    color: #333;
+}
+
+.welcome-message {
+    font-size: 1.2em;
+    color: #666;
+}
+
+nav {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+    color: #0056b3;
+}
+
+
+
+
