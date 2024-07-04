@@ -1,0 +1,93 @@
+html{
+    box-sizing: border-box;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: 1 1 auto;
+}
+body{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+.footer{
+    background-color: #e5e5e5;
+}
+
+
+
+
+.img-fon{
+    background-image: url(../img/fon.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.menu {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    border-bottom: 1px solid #000000;
+}
+.optime{
+    margin-top: 260px;
+}
+.optime_h{
+    font-size: 50px;
+}
+.optime_p{
+    font-size: 25px;
+    margin-top: 60px;
+}
+
+
+
+
+
+.login__section{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+.formbox{
+    padding: 30px;
+    border: 1px solid #bdadad;
+}
+
+
+
+
+.data{
+    text-align: center;
+    padding: 50px;
+    border: 1px solid #f1f1f1;
+}
+.data_img{
+    padding: 10px;
+    width: 200px;
+}

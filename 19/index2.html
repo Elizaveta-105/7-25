@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет магазин</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="menu">
+                <a href="index.html" class="menu__list">Главная</a>
+                <a href="#" class="menu__list">О нас</a>
+                <a href="#" class="menu__list">Контакты</a>
+                <a href="index2.html" class="menu__list">Личный кабинет</a>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="login__section"> 
+                <div class="formbox"> 
+                    <form method="post" action="login.php"> 
+                        <h2>Вход</h2> 
+                        <div class="input__box"> 
+                            <input name="number2" type="tel" required> 
+                            <label for="">Номер телефона</label> 
+                        </div> 
+                        <div class="input__box"> 
+                            <input name="password3" type="password" required> 
+                            <label for="">Пароль</label> 
+                        </div>  
+                        <button type="submit" class="btn1">Войти</button>              
+                    </form> 
+                </div> 
+                <div class="formbox"> 
+                    <form method="post" action="registr.php">                        
+                        <h2>Регистрация</h2>
+                        <div class="input__box">
+                            <input name="number" type="tel" required>
+                            <label for="">Номер телефона</label>
+                        </div>
+                        <div class="input__box">
+                            <input name="password" type="password" required>
+                            <label for="">Пароль</label>
+                        </div> 
+                        <div class="input__box">
+                            <input name="password2" type="password" required>
+                            <label for="">Подтвердите пароль</label>
+                        </div> 
+                        <button type="submit" class="btn1">Зарегистрироваться</button>                             
+                    </form> 
+                </div> 
+            </div> 
+        </main>
+        <footer class="footer">
+            <nav class="menu">
+                <a href="index.html" class="menu__list">Главная</a>
+                <a href="#" class="menu__list">О нас</a>
+                <a href="#" class="menu__list">Контакты</a>
+                <a href="#" class="menu__list">Туры</a>
+                <a href="#" class="menu__list">Отзывы</a>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>
