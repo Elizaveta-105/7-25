@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe Aroma</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Aroma</div>
+      <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Меню</a></li>
+        <li><a href="#">О кафе</a></li>
+        <li><a href="#">Контакты</a></li>
+        <li><a href="index2.html">Личный кабинет</a></li>
+      </ul>
+    </nav>
+        </header>
+        <main class="main">
+            <div class="login__section"> 
+                <div class="formbox"> 
+                    <form method="post" action="login.php"> 
+                        <h2>Вход</h2> 
+                        <div class="input__box"> 
+                            <input name="num2" type="tel" required> 
+                            <label for="">Номер телефона</label> 
+                        </div> 
+                        <div class="input__box"> 
+                            <input name="par3" type="password" required> 
+                            <label for="">Пароль</label> 
+                        </div>  
+                        <button type="submit" class="btn1">Войти</button>              
+                    </form> 
+                </div> 
+                <div class="formbox"> 
+                    <form method="post" action="registr.php">                        
+                        <h2>Регистрация</h2>
+                        <div class="input__box">
+                            <input name="num" type="tel" required>
+                            <label for="">Номер телефона</label>
+                        </div>
+                        <div class="input__box">
+                            <input name="par" type="password" required>
+                            <label for="">Пароль</label>
+                        </div> 
+                        <div class="input__box">
+                            <input name="par2" type="password" required>
+                            <label for="">Подтвердите пароль</label>
+                        </div> 
+                        <button type="submit" class="btn1">Зарегистрироваться</button>                             
+                    </form> 
+                </div> 
+            </div> 
+        </main>
+        <footer>
+            <p>&copy; 2024 Cafe Aroma. Все права защищены.</p>
+          </footer>
+        </body>
+        </html>
